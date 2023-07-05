@@ -1,0 +1,134 @@
+.navbar {
+  width: 100%;
+  height: 11vh;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  z-index: 1;
+  opacity: 1;
+}
+.navbar .navbar-brand {
+  margin-left: 12vw;
+  position: initial;
+}
+.navbar #navbarSupportedContent ul {
+  margin-left: 16vw;
+}
+.navbar ul {
+  gap: 2vw;
+}
+.navbar ul li:hover {
+  border-top-style: solid;
+  border-top-color: white;
+}
+.carouselsection2 .carousel-inner .carousel-item img {
+  width: 100%;
+}
+.carouselsection2 {
+  position: relative;
+  top: -11.3vh;
+}
+.Section3 {
+  width: 100%;
+  height: 27vh;
+  z-index: 1;
+  background-color: white;
+  margin-top: 10vh;
+  text-align: center;
+}
+.Section3 h1 {
+  color: #1e1859;
+}
+.Section3 p {
+  font-size: 14px;
+  margin-left: 16vw;
+}
+.section4 {
+  width: 100%;
+  text-align: center;
+  height: 130vh;
+}
+.section4 p {
+  font-size: 14px;
+}
+
+.section4 .cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+  gap: 2vw;
+  border-style: none;
+}
+.section4 .card {
+  background-color: #ebf0f4;
+}
+.section4 .cards img {
+  width: 7vw;
+  margin: 4vh 7.5vw;
+}
+.sction5 {
+  width: 100%;
+  text-align: center;
+}
+
+.sction5 h1 {
+  margin-bottom: 10vh;
+}
+.sction5 #carouselExampleIndicators {
+  width: 60vw;
+  height: 20vh;
+
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.sction5 #carouselExampleIndicators .carousel-inner {
+  display: flex;
+}
+.sction5 #carouselExampleIndicators .carousel-inner img {
+  width: 30vw;
+  height: 30vh;
+}
+.section6 {
+  position: relative;
+}
+.section7 {
+  width: 100%;
+  height: 50vh;
+}
+.section7 .card img {
+  width: 7vw;
+  margin: 7vh 17vh;
+}
+.section7 .card:hover {
+  box-shadow: 0px 2px 6px 0px;
+}
+.MainFooter {
+  background-color: #0c112a;
+}
+.Footer {
+  display: flex;
+  background-color: #0c112a;
+  gap: 15vw;
+  justify-content: center;
+  height: 70vh;
+}
+.Footer .Footer1 {
+  margin-top: 10vh;
+}
+.Footer .Footer1 .subFooter1 {
+  margin-top: 5vh;
+}
+.Footer .Footer1 .subFooter1 a {
+  text-decoration: none;
+  color: gray;
+}
+.Footer .Footer1 .subFooter1 i {
+  color: white;
+  margin-left: 1vw;
+}
+.Footer .Footer1 h4 {
+  color: white;
+}
+.FullBody {
+  scroll-behavior: smooth;
+}
